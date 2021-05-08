@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Kit Set</title>
+</head>
+<body>
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd">
+        <span class="navbar-brand mb-0 h1">Kit Set</span>
+    </nav>
+    
+    <div class="container">
+        <div class="form-group bg-light p-3" role="alert">
+            <h1 class="display-4"> decreasing percentage</h1> <br/>
+            
+            <p class= " h4">Fill out the form to calcuate the percentage decrease for a number</p>
+
+            <form>
+                <div class="form-group">
+                    <label for="percentage">Percentage</label>
+                    <input type="number" class="form-control w-25" id="percentage"  placeholder="Enter percentage">
+                    
+                </div>
+                <div class="form-group">
+                    <label for="num">Number</label>
+                    <input type="number" class="form-control w-25" id="num" placeholder="Enter number">
+                </div>
+
+                <button type="submit" class="btn btn-dark">Submit</button>
+
+                <div class="form-group">
+                    <label for="result">Result Quantity</label>
+                    <input type="text" class="form-control w-25" id="result" placeholder="result">
+                </div>
+
+                <div class="form-group">
+                    <label for="decAmount">Decreased Amount:</label>
+                    <input type="text" id="decAmount" name="decAmount" class="form-control w-25" placeholder="decreased Amount"><br/>
+                </div>
+                
+                
+            </form>
+            
+            
+        </div>
+    </div>
+    
+    <script src="sandbox.js"></script>
+    
+</body>
+</html>
