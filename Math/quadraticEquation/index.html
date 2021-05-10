@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Kit Set</title>
+</head>
+<body>
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd">
+        <span class="navbar-brand mb-0 h1">Kit Set</span>
+    </nav>
+    
+    <div class="container">
+        <div class="form-group bg-light p-3" role="alert">
+            <h1 class="display-4"> Quadratic Equation</h1> <br/>
+            
+            <p class= " h4">Fill out the form to find the X value</p><br/>
+
+            <p class= " h6">Quadratic Equation: y = aX^2 + bX + c</p>
+
+            <form>
+                <div class="form-group">
+                    <label for="firstNum">a</label>
+                    <input type="number" class="form-control w-25" id="firstNum"  placeholder="Enter number">
+                    
+                </div>
+                <div class="form-group">
+                    <label for="slop">b</label>
+                    <input type="number" class="form-control w-25" id="slop" placeholder="Enter number">
+                </div>
+
+                <div class="form-group">
+                    <label for="intersect">c</label>
+                    <input type="number" class="form-control w-25" id="intersect" placeholder="Enter number">
+                </div>
+
+                <div class="form-group">
+                    <label for="ans">y</label>
+                    <input type="number" class="form-control w-25" id="ans" placeholder="Enter number">
+                </div>
+
+                <button type="submit" class="btn btn-dark">Calculate X</button>
+                
+                <div class="form-group">
+                    <label for="resultNum1">X1:</label>
+                    <input type="text" id="resultNum1" name="resultNum1" class="form-control w-25"><br/>
+                </div>
+
+                <div class="form-group">
+                    <label for="resultNum2">X2:</label>
+                    <input type="text" id="resultNum2" name="resultNum2" class="form-control w-25"><br/>
+                </div>
+                
+                
+            </form>
+            
+            
+        </div>
+    </div>
+    
+    <script src="sandbox.js"></script>
+    
+</body>
+</html>
