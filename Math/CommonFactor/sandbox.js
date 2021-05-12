@@ -1,11 +1,13 @@
 const button = document.querySelector('button');
 
 function gcd(a,b) {
-    if(b == 0) {
-        return a;
-    }else {
-        return gcd(b, a % b);
+    let gcdval = 1;
+    for (let i = 2; i <= Math.min(a,b); i++) {
+        if (a % i == 0 && b % i == 0) {
+            gcdval = i;
+        }
     }
+    return gcdval;
 }
 
 button.addEventListener('click', () => {
